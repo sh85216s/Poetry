@@ -42,7 +42,7 @@ $(function(){
 
   // single level menu
   $('.nav-sidebar > .nav-link').on('click', function(e){
-    e.preventDefault();
+    // e.preventDefault();
 
     // remove active siblings
     $(this).addClass('active').siblings().removeClass('active');
@@ -136,7 +136,7 @@ $(function(){
   });
 
   //on page load
-  var sk = (localStorage.getItem('skin'))? localStorage.getItem('skin') : 'base';
+  var sk = (localStorage.getItem('skin'))? localStorage.getItem('skin') : 'dark';
   var st = (localStorage.getItem('style'))? localStorage.getItem('style') : 'base';
 
   // skin
