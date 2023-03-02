@@ -83,7 +83,7 @@ $(function(){
   });
 
   $('.nav-sub').on('click', '.sub-link', function(e){
-    e.preventDefault();
+    // e.preventDefault();
 
     $(this).addClass('active').siblings().removeClass('active');
 
