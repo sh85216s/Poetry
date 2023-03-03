@@ -10,6 +10,10 @@
     <meta name="description" content="">
     <meta name="author" content="Themepixels">
 
+    <!-- 以下-Mobile-friendly Back To Top Arrow -->
+    <link rel="stylesheet" href="css/scrolltotop_arrow_style.css">
+    <!-- 以上-Mobile-friendly Back To Top Arrow -->
+
     <!-- Favicon -->
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -23,6 +27,12 @@
     <link rel="stylesheet" href="css/poetry.css">
   </head>
   <body class="skin-base animate">
+    <!--START!!! This is START of the ScrollToTop Arrow, you need to copy this part into the body tag of your html document.-->
+    <div id="scrolltotop_parent" class="scrolltotop_hide_onload">
+      <div tabindex="0" id="scrolltotop_arrow">
+      </div>
+    </div>
+    <!--END!!! This is the END of the ScrollToTop Arrow, do not copy anything below it.-->
 
     <div class="sidebar">
       <div class="sidebar-header">
@@ -30,67 +40,76 @@
         <a href="index.html" class="sidebar-logo-text">詩詞<span>教學</span></a>
       </div>
       <div class="sidebar-body pt-20">
-        <div class="nav-group show">
+        <!-- <div class="nav-group show"> -->
+        <div class="nav-group">
           <div class="nav-group-label">詩</div>
           <ul class="nav-sidebar">
-            <li class="nav-item active">
+            <!-- <li class="nav-item active"> -->
+              <li class="nav-item">
               <a href="" class="nav-link with-sub"><i data-feather="file-text"></i><span>唐朝</span></a>
               <nav class="nav-sub">
                 <a href="doc/詩/唐朝/李白/詩-唐-李白.html" class="sub-link">李白</a>
-                <a href="" class="sub-link">Insights</a>
-                <a href="" class="sub-link">Transactions</a>
-                <a href="" class="sub-link">Reports</a>
+                <a href="" class="sub-link">杜甫</a>
+                <a href="" class="sub-link">杜牧</a>
+                <a href="" class="sub-link">王維</a>
+                <a href="" class="sub-link">孟浩然</a>
+                <a href="" class="sub-link">孟郊</a>
+                <a href="" class="sub-link">賀知章</a>
+                <a href="" class="sub-link">崔護</a>
+                <a href="" class="sub-link">張繼</a>
+                <a href="" class="sub-link">李商隱</a>
+                <a href="" class="sub-link">杜秋娘</a>
+                <a href="" class="sub-link">王之渙</a>
+                <a href="" class="sub-link">高適</a>
+                <a href="" class="sub-link">王昌齡</a>
+                <a href="" class="sub-link">王翰</a>
+                <a href="" class="sub-link">王勃</a>
+                <a href="" class="sub-link">顏真卿</a>
+                <a href="" class="sub-link">羅隱</a>
               </nav>
             </li>
             <li class="nav-item">
               <a href="" class="nav-link with-sub"><i data-feather="file-text"></i><span>宋朝</span></a>
               <nav class="nav-sub">
-                <a href="" class="sub-link">Summary</a>
-                <a href="" class="sub-link">Geolocation</a>
-                <a href="" class="sub-link">Accounts</a>
+                <a href="" class="sub-link">陸游</a>
+                <a href="" class="sub-link">林升</a>
+                <a href="" class="sub-link">蘇軾</a>
+                <a href="" class="sub-link">僧志男</a>
+                <a href="" class="sub-link">葉紹翁</a>
+                <a href="" class="sub-link">趙師秀</a>
+                <a href="" class="sub-link">朱熹</a>
+                <a href="" class="sub-link">李清照</a>
               </nav>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link with-sub"><i data-feather="file-text"></i><span>明朝</span></a>
-              <nav class="nav-sub">
-                <a href="" class="sub-link">Updates</a>
-                <a href="" class="sub-link">Promotions</a>
-                <a href="" class="sub-link">Articles</a>
-              </nav>
-            </li>
+            </li>            
             <li class="nav-item">
               <a href="" class="nav-link with-sub"><i data-feather="file-text"></i><span>清朝</span></a>
               <nav class="nav-sub">
-                <a href="" class="sub-link">Updates</a>
-                <a href="" class="sub-link">Promotions</a>
-                <a href="" class="sub-link">Articles</a>
+                <a href="" class="sub-link">龔自珍</a>
               </nav>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link with-sub"><i data-feather="file-text"></i><span>現代</span></a>
+              <a href="" class="nav-link with-sub"><i data-feather="file-text"></i><span>現代詩</span></a>
               <nav class="nav-sub">
-                <a href="" class="sub-link">Updates</a>
-                <a href="" class="sub-link">Promotions</a>
-                <a href="" class="sub-link">Articles</a>
+                <a href="" class="sub-link">徐志摩</a>
               </nav>
             </li>
             
           </ul>
         </div><!-- nav-group -->
-          <div class="nav-group show">
+          <!-- <div class="nav-group show"> -->
+          <div class="nav-group">
             <div class="nav-group-label">詞</div>
           <ul class="nav-sidebar">            
             <li class="nav-item">
               <a href="" class="nav-link with-sub"><i data-feather="file-text"></i><span>唐朝</span></a>
               <nav class="nav-sub">
-                <a href="" class="sub-link">張志和</a>
-                <a href="" class="sub-link">Accessibility</a>
+                <a href="doc/詞/唐朝/張志和/詞-唐-張志和.html" class="sub-link">張志和</a>
               </nav>
             </li>
             <li class="nav-item">
               <a href="" class="nav-link with-sub"><i data-feather="file-text"></i><span>宋朝</span></a>
               <nav class="nav-sub">
-                <a href="詞-宋-李清照.html" class="sub-link">李清照</a>
+                <a href="doc/詞/宋朝/李清照/詞-宋-李清照.html" class="sub-link">李清照</a>
                 <a href="doc/詞/宋朝/李煜/詞-宋-李煜.html" class="sub-link">李煜</a>
                 <a href="" class="sub-link">辛棄疾</a>
                 <a href="" class="sub-link">秦觀</a>
@@ -102,8 +121,7 @@
             <li class="nav-item">
               <a href="" class="nav-link with-sub"><i data-feather="file-text"></i><span>明朝</span></a>
               <nav class="nav-sub">
-                <a href="" class="sub-link">楊慎</a>
-                <a href="" class="sub-link">Accessibility</a>
+                <a href="doc/詞/明朝/楊慎/詞-明-楊慎.html" class="sub-link">楊慎</a>
               </nav>
             </li>
 
@@ -128,8 +146,8 @@
         <a id="mobileMenu" href="#" class="content-menu d-lg-none"><i data-feather="menu"></i></a>
       </div><!-- content-header -->
       <div class="content-body">
-        <p>1.點擊左邊->詩->唐朝->李白   ==>沒反應</p>
-        <p>2.左邊的選單底色是藍色，為何傳到github後變沒效果。</p>
+        <p>1.</p>
+        <p>2.</p>
        
       </div><!-- content-body -->
     </div><!-- content -->
@@ -140,5 +158,8 @@
     <script src="js/feather.min.js"></script>
     <script src="js/perfect-scrollbar.js"></script>
     <script src="js/script.js"></script>
+    <!-- 以下-Mobile-friendly Back To Top Arrow -->
+    <script type="text/javascript" src="../js/scrolltotop_arrow_code.js"></script>
+    <!-- 以上-Mobile-friendly Back To Top Arrow -->
   </body>
 </html>
