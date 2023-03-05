@@ -3759,7 +3759,8 @@ progress {
     stroke-width: 2.5px; }
 
 .content-body {
-  padding: 20px 35px; }
+  /* padding: 20px 35px; } */
+  padding: 0 35px 20px 35px; }
   .content-body .nav {
     display: flex;
     flex-wrap: wrap; }
