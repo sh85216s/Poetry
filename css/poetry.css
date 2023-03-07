@@ -4489,3 +4489,8 @@ progress {
   width: 6px; }
   .scrollbar-lg > .ps__rail-y > .ps__thumb-y {
     width: 6px; }
+
+.UnderLine {
+  text-decoration: underline;
+  text-underline-offset: 0.1rem;
+}
