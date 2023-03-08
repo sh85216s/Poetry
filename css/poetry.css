@@ -127,6 +127,7 @@ h6 {
   font-size: 0.875rem; }
 
 p {
+  font-size: 16px;
   margin-top: 0;
   margin-bottom: 1rem; }
 
@@ -143,6 +144,7 @@ address {
 
 ol,
 ul {
+  font-size: 16px;
   padding-left: 2rem; }
 
 ol,
