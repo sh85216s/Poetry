@@ -3768,7 +3768,7 @@ progress {
 
 .content-body {
   /* padding: 20px 35px; } */
-  padding: 0 35px 20px 35px; }
+  padding: 0 10px 20px 10px; }
   .content-body .nav {
     display: flex;
     flex-wrap: wrap; }
